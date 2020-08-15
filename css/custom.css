@@ -1,0 +1,14 @@
+.icon-logo path {
+    fill: #f00040;
+    transition: fill 6s ease; /* out */
+}
+
+/* .icon-logo:hover path {
+    fill: #0df;
+    transition: fill 1s ease;
+} */
+
+ .icon-spin {
+    animation: icon-spin 240s linear infinite;
+}
+@keyframes icon-spin { 100% { transform:rotate(360deg); } }
